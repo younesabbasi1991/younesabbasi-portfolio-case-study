@@ -8,21 +8,21 @@ The production implementation therefore separates the portfolio domain model int
 
 ## Component map
 
-\`\`\`mermaid
+```mermaid
 flowchart TB
     Editor["WordPress editor"] --> Core["Portfolio Core MU Plugin"]
     Core --> Store["Posts, terms and post meta"]
     Store --> Helpers["Theme helper layer"]
     Helpers --> Views["Homepage and portfolio templates"]
     Views --> Browser["Responsive public interface"]
-\`\`\`
+```
 
 ## MU plugin responsibilities
 
 The core plugin owns the information that must remain available when presentation changes:
 
-- registration of the \`ya_portfolio\` custom post type;
-- registration of the hierarchical \`portfolio_category\` taxonomy;
+- registration of the `ya_portfolio` custom post type;
+- registration of the hierarchical `portfolio_category` taxonomy;
 - project details metadata and validation;
 - project gallery metadata, ordering, and image layout;
 - administrative media-selection behavior;
@@ -68,7 +68,7 @@ The post itself stores the narrative content:
 
 ### Taxonomy
 
-\`portfolio_category\` classifies work by project or service type and supports:
+`portfolio_category` classifies work by project or service type and supports:
 
 - hierarchical terms;
 - REST API exposure;
@@ -117,8 +117,8 @@ No single signal is treated as complete spam protection.
 
 ## Performance decisions
 
-- \`WP_Query\` instances that do not need pagination use \`no_found_rows\`.
-- Featured and card images use \`loading="lazy"\` and \`decoding="async"\`.
+- `WP_Query` instances that do not need pagination use `no_found_rows`.
+- Featured and card images use `loading="lazy"` and `decoding="async"`.
 - Thumbnail fallbacks are centralized.
 - Administrative gallery scripts load only on portfolio editing screens.
 - Frontend dependencies are served locally.
