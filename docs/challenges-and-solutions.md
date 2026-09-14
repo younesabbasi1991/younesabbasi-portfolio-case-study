@@ -28,7 +28,7 @@
 
 **Challenge:** Featured work should follow a deliberate narrative rather than publish date or database order.
 
-**Solution:** Selected IDs are normalized, deduplicated, capped, and passed to a query using \`post__in\` with \`orderby => post__in\`.
+**Solution:** Selected IDs are normalized, deduplicated, capped, and passed to a query using `post__in` with `orderby => post__in`.
 
 **Result:** The homepage renders projects in exactly the order chosen by the site owner.
 
