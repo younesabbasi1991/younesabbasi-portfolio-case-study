@@ -79,6 +79,43 @@ flowchart TB
 
 توضیح دامنه نمونه‌ها در [راهنمای نمونه‌کدها](code-samples/README.md) آمده است.
 
+## تصاویر پروژه
+
+### نمای دسکتاپ
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/homepage-desktop.webp" alt="صفحه اصلی پورتفولیو در دسکتاپ">
+      <br><strong>صفحه اصلی</strong>
+    </td>
+    <td width="50%">
+      <img src="screenshots/portfolio-archive.webp" alt="آرشیو فیلترپذیر پورتفولیو">
+      <br><strong>آرشیو پروژه‌ها</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/history-page.webp" alt="صفحه تحصیلات و سوابق کاری">
+      <br><strong>تحصیلات و سوابق کاری</strong>
+    </td>
+    <td width="50%">
+      <img src="screenshots/contact-page.webp" alt="صفحه تماس و فرم درخواست خدمات">
+      <br><strong>صفحه تماس</strong>
+    </td>
+  </tr>
+</table>
+
+### رابط واکنش‌گرا
+
+<p align="center">
+  <img src="screenshots/mobile-profile-panel.webp" width="260" alt="پنل پروفایل و مهارت‌ها در موبایل">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/mobile-navigation.webp" width="260" alt="منوی اصلی در موبایل">
+</p>
+
+تصاویر موبایل با عرض خوانا نمایش داده شده‌اند و به نوارهای عمودی باریک تبدیل نشده‌اند. فهرست کامل تصاویر در [راهنمای تصاویر](screenshots/README.md) قرار دارد.
+
 ## مستندات
 
 - [معماری پروژه](docs/architecture.md)
