@@ -6,14 +6,14 @@ Real interface captures are intentionally added separately from the code samples
 
 | File | Suggested viewport | Purpose |
 |---|---:|---|
-| \`homepage-desktop.webp\` | 1440 px wide | Hero, statistics, services, and featured work |
-| \`homepage-mobile.webp\` | 390 px wide | Responsive homepage presentation |
-| \`portfolio-archive.webp\` | 1440 px wide | Category filters and project cards |
-| \`single-case-study.webp\` | 1440 px wide | Long-form project template |
-| \`project-gallery.webp\` | 1440 px wide | Mixed-orientation evidence gallery |
-| \`contact-page.webp\` | 1440 px wide | Contact experience |
-| \`portfolio-editor.webp\` | 1440 px wide | Optional structured project fields |
-| \`portfolio-gallery-admin.webp\` | 1440 px wide | Optional sortable Media Library gallery |
+| `homepage-desktop.webp` | 1440 px wide | Hero, statistics, services, and featured work |
+| `homepage-mobile.webp` | 390 px wide | Responsive homepage presentation |
+| `portfolio-archive.webp` | 1440 px wide | Category filters and project cards |
+| `single-case-study.webp` | 1440 px wide | Long-form project template |
+| `project-gallery.webp` | 1440 px wide | Mixed-orientation evidence gallery |
+| `contact-page.webp` | 1440 px wide | Contact experience |
+| `portfolio-editor.webp` | 1440 px wide | Optional structured project fields |
+| `portfolio-gallery-admin.webp` | 1440 px wide | Optional sortable Media Library gallery |
 
 ## Capture rules
 
