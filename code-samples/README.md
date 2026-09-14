@@ -14,11 +14,11 @@ They are intentionally:
 
 | Directory | Focus |
 |---|---|
-| \`portfolio-content-model/\` | Custom post type and hierarchical taxonomy |
-| \`featured-projects/\` | Ordered project query and resilient card output |
-| \`portfolio-gallery/\` | Gallery metadata, layouts, and safe persistence |
-| \`comment-antispam/\` | Layered no-CAPTCHA comment validation |
-| \`portfolio-frontend/\` | Normalized project facts and gallery view data |
+| `portfolio-content-model/` | Custom post type and hierarchical taxonomy |
+| `featured-projects/` | Ordered project query and resilient card output |
+| `portfolio-gallery/` | Gallery metadata, layouts, and safe persistence |
+| `comment-antispam/` | Layered no-CAPTCHA comment validation |
+| `portfolio-frontend/` | Normalized project facts and gallery view data |
 
 ## Important
 
