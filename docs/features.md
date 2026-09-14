@@ -85,7 +85,7 @@ Primary navigation and content are server rendered; these libraries enhance rath
 ## Performance and maintainability
 
 - Small helper classes isolate portfolio formatting and image behavior.
-- \`no_found_rows\` is used when result counts are unnecessary.
+- `no_found_rows` is used when result counts are unnecessary.
 - Meta and taxonomy caches are enabled for card collections.
 - Images are lazy loaded and decoded asynchronously.
 - Admin assets are loaded only in the relevant editor context.
