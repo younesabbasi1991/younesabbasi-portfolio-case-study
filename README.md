@@ -37,7 +37,7 @@ The site uses a custom WordPress implementation with a clear boundary between th
 
 ## High-level architecture
 
-\`\`\`mermaid
+```mermaid
 flowchart TB
     WP["WordPress"] --> Core["Portfolio Core MU Plugin"]
     Core --> Model["CPT, taxonomy and metadata"]
@@ -46,7 +46,7 @@ flowchart TB
     Model --> Theme
     Theme --> UX["Homepage, archives and case studies"]
     Theme --> Admin["Profile and content settings"]
-\`\`\`
+```
 
 The MU plugin owns durable portfolio data and validation. The theme consumes that data through focused helper classes and renders the public experience. This separation makes the content portable and keeps presentation changes from affecting the underlying project records.
 
@@ -58,7 +58,7 @@ Each project can include a title, excerpt, long-form case study, featured image,
 
 ### Responsive project discovery
 
-The portfolio archive combines taxonomy filters, responsive cards, image-orientation classes, pagination, and accessible project links. Featured homepage projects preserve a deliberate editorial order through \`post__in\` and \`orderby => post__in\`.
+The portfolio archive combines taxonomy filters, responsive cards, image-orientation classes, pagination, and accessible project links. Featured homepage projects preserve a deliberate editorial order through `post__in` and `orderby => post__in`.
 
 ### Long-form case studies
 
