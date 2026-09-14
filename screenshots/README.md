@@ -1,31 +1,26 @@
-# Screenshot guide
+# Visual documentation
 
-Real interface captures are intentionally added separately from the code samples. This keeps the initial public repository free of private content and makes every published image a deliberate portfolio artifact.
+These screenshots document the real production interface. They were converted to optimized WebP files without redesigning, regenerating, or compositing the UI.
 
-## Recommended set
+## Included captures
 
-| File | Suggested viewport | Purpose |
+| File | Size | View |
 |---|---:|---|
-| `homepage-desktop.webp` | 1440 px wide | Hero, statistics, services, and featured work |
-| `homepage-mobile.webp` | 390 px wide | Responsive homepage presentation |
-| `portfolio-archive.webp` | 1440 px wide | Category filters and project cards |
-| `single-case-study.webp` | 1440 px wide | Long-form project template |
-| `project-gallery.webp` | 1440 px wide | Mixed-orientation evidence gallery |
-| `contact-page.webp` | 1440 px wide | Contact experience |
-| `portfolio-editor.webp` | 1440 px wide | Optional structured project fields |
-| `portfolio-gallery-admin.webp` | 1440 px wide | Optional sortable Media Library gallery |
+| [`homepage-desktop.webp`](homepage-desktop.webp) | 1857 × 916 | Hero, statistics, and featured projects |
+| [`portfolio-archive.webp`](portfolio-archive.webp) | 1857 × 916 | Filterable project archive |
+| [`history-page.webp`](history-page.webp) | 1857 × 916 | Education and work-history timelines |
+| [`contact-page.webp`](contact-page.webp) | 1857 × 916 | Contact information and inquiry form |
+| [`mobile-profile-panel.webp`](mobile-profile-panel.webp) | 324 × 718 | Responsive profile and skills panel |
+| [`mobile-navigation.webp`](mobile-navigation.webp) | 324 × 718 | Responsive navigation overlay |
 
-## Capture rules
+## Presentation decisions
 
-- Use the production interface without redesigning or generating replacement UI.
-- Prefer WebP for repository images.
-- Keep desktop images at or below 1600 px wide unless small text becomes unreadable.
-- Crop excessive browser chrome and empty canvas, but keep enough context to understand the page.
-- Use a framed mobile mockup only when it improves legibility; do not place a full mobile page into a narrow unreadable strip.
-- Blur or remove email addresses, phone numbers, form submissions, analytics identifiers, and private admin data.
-- Do not expose hosting paths, API keys, nonces, user IDs, or environment details.
-- Add concise descriptive alt text wherever an image is embedded in Markdown.
+- Desktop captures keep the same viewport and are displayed in a balanced two-column gallery.
+- Mobile views are shown as focused interface states, not unreadable full-page strips.
+- The interface itself was not altered for the repository.
+- Metadata was removed and WebP compression was applied to keep the repository lightweight.
+- The captures contain only profile details already intentionally published on the live portfolio; no contact submissions, analytics, private admin screens, nonces, or environment information are included.
 
-## README integration
+## Future captures
 
-After the final images are reviewed, a compact visual section can be added to the main README. It should show only the strongest three or four views and link here for the complete visual record.
+A single-project case-study view and a project gallery may be added later if they improve the technical story without duplicating the existing images.
