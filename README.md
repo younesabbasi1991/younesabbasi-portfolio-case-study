@@ -95,7 +95,40 @@ See [code-samples/README.md](code-samples/README.md) for the scope and limitatio
 
 ## Visual documentation
 
-A screenshot checklist and privacy-safe capture guide are available in [screenshots/README.md](screenshots/README.md). Real interface captures will be added separately so this repository never exposes private form submissions, email addresses, or environment details.
+### Desktop experience
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/homepage-desktop.webp" alt="Portfolio homepage on desktop">
+      <br><strong>Homepage</strong>
+    </td>
+    <td width="50%">
+      <img src="screenshots/portfolio-archive.webp" alt="Filterable portfolio archive on desktop">
+      <br><strong>Portfolio archive</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/history-page.webp" alt="Education and work history page on desktop">
+      <br><strong>Education and work history</strong>
+    </td>
+    <td width="50%">
+      <img src="screenshots/contact-page.webp" alt="Contact page and service inquiry form on desktop">
+      <br><strong>Contact experience</strong>
+    </td>
+  </tr>
+</table>
+
+### Responsive navigation
+
+<p align="center">
+  <img src="screenshots/mobile-profile-panel.webp" width="260" alt="Mobile profile and skills panel">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/mobile-navigation.webp" width="260" alt="Mobile navigation overlay">
+</p>
+
+The mobile captures are shown at a readable width rather than being compressed into full-page vertical strips. See [screenshots/README.md](screenshots/README.md) for the complete image inventory and capture notes.
 
 ## Additional documentation
 
